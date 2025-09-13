@@ -1,0 +1,82 @@
+# ---------------------- Python: Bytecode & Cache ----------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# ---------------------- Builds & Packaging ---------------------------
+build/
+dist/
+*.egg-info/
+.eggs/
+wheels/
+*.whl
+pip-wheel-metadata/
+
+# ---------------------- Virtuelle Umgebungen -------------------------
+.venv/
+venv/
+env/
+ENV/
+.python-version
+
+# ---------------------- Tests & Coverage -----------------------------
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+
+# ---------------------- Lint/Type Checker Caches ---------------------
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+
+# ---------------------- Jupyter & Notebooks --------------------------
+.ipynb_checkpoints/
+
+# ---------------------- Logs & Runs ----------------------------------
+logs/
+*.log
+runs/
+
+# ---------------------- Daten/Modelle/Artefakte ----------------------
+data/
+datasets/
+models/
+checkpoints/
+outputs/
+figures/
+reports/
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.tflite
+*.npz
+*.npy
+*.csv
+*.tsv
+*.parquet
+
+# ---------------------- Temporary/Cache -------------------------------
+.cache/
+temp/
+tmp/
+
+# ---------------------- Editor/IDE -----------------------------------
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ---------------------- Betriebssystem -------------------------------
+.DS_Store
+Thumbs.db
+
+# ---------------------- Sonstiges/Secrets ----------------------------
+.env
+.env.*
+*.secret
