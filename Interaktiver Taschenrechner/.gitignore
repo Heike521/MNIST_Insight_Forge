@@ -1,0 +1,47 @@
+# Byte-compiled / optimierte / DLL-Dateien
+__pycache__/
+*.py[cod]
+*$py.class
+
+# temporäre Dateien und Logs
+*.log
+*.tmp
+*.bak
+
+# Jupyter Notebook Checkpoints (falls verwendet)
+.ipynb_checkpoints/
+
+# lokale Umgebungen / virtuelle Umgebungen
+venv/
+env/
+.venv/
+.env/
+
+# Konfigurationen von IDEs
+.vscode/
+.idea/
+*.code-workspace
+
+# macOS-Dateien
+.DS_Store
+
+# Windows Explorer-Dateien
+Thumbs.db
+desktop.ini
+
+# Python cache Dateien
+*.pyo
+*.pyd
+
+# Persönliche Dateien oder temporäre Entwicklungsdateien
+screenshot.png
+tests/
+debug/
+
+# Backup-Dateien (z. B. von Editoren)
+*~
+*.swp
+*.swo
+
+# OneDrive / temporäre Office-Dateien
+~$*
