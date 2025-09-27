@@ -1,0 +1,56 @@
+============================================================
+📄 PROJECT REPORT – Digit Recognition with Neural Networks
+============================================================
+
+🗓️ Datum:               26.07.2025
+👩 Autorin:             Heike Fasold
+💻 Project Name:        Neural Network for Digit Recognition
+📂 Source:              Projektarbeit-AI-Developement.py
+
+------------------------------------------------------------
+🧠 MODEL ARCHITECTURE
+------------------------------------------------------------
+Input layer:            784 neurons (28x28 image pixels)
+Hidden layer:           300 neurons
+Output layer:           10 neurons (digits 0–9)
+Activation function:    Sigmoid
+Loss function:          Mean Squared Error (MSE)
+Optimizer:              Stochastic Gradient Descent (SGD)
+
+------------------------------------------------------------
+📊 TRAINING CONFIGURATION
+------------------------------------------------------------
+Training data:          56,000 images
+Test data:              14,000 images
+Epochs:                 5
+Batch size:             32
+Learning rate:          0.5
+Initialization:         Uniform distribution [-0.5, 0.5]
+Random seed:            42
+
+------------------------------------------------------------
+📈 TRAINING RESULTS (Final Epoch)
+------------------------------------------------------------
+Loss (MSE):             0.014527
+Accuracy:               93.25%
+
+------------------------------------------------------------
+🖼️ GENERATED VISUALIZATIONS
+------------------------------------------------------------
+✓ Loss curve (loss_curve.png)
+✓ Accuracy curve (accuracy_curve.png)
+✓ Weight matrix (weights_matrix.png)
+✓ Heatmap of misclassified digits (heatmap_fehler/)
+✓ Confusion matrix (confusion_heatmap.png)
+✓ Sample images with label overlay (mnist_bsp_train_labeled/*.png)
+
+------------------------------------------------------------
+📝 CONCLUSION
+------------------------------------------------------------
+The developed feedforward network achieves a solid recognition 
+rate on the MNIST dataset—without deep-learning frameworks. The 
+pure NumPy implementation provides a deep understanding of the 
+mathematical foundations of neural networks. Ideas for extensions: 
+CNN, EMNIST characters, data augmentation, PyTorch comparison.
+
+================================================================================
